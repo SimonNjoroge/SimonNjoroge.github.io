@@ -1,0 +1,72 @@
+html{
+    height: 100vh;
+}
+
+body{
+    background:linear-gradient(rgb(174, 255, 0), firebrick, violet, gray);
+    
+    font-family: Comic Sans Ms;
+    color: rgb(42, 72, 72);
+    font-weight: bolder;
+    overflow: hidden;
+    
+    
+}
+h1{
+    position: relative;
+
+    left: 50px;
+}
+
+.loginbox{
+    background: url(../img/background.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: contain;
+    box-sizing: border-box;
+    border: 1px  solid yellow;
+    border-radius: 10px;
+    position: absolute;
+    left: 80px;
+    top: 80px;
+    margin: auto, 0px;
+    color: azure;
+
+
+}
+
+.avatar{
+    width: 100px;
+    width: 100px;
+    border-radius: 100px;
+    position: absolute;
+    top: -60px;
+    left: calc(50% - 50px);
+    padding: 5px;
+}
+
+h1{
+    left: 150px;
+    top: 20px;
+    font-family: courier;
+    color: aqua;
+    border: 1px dashed red;
+    width: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+}
+a:hover{
+    color: firebrick;
+    background: linear-gradient(blue, white);
+    text-transform: uppercase;
+    
+
+}
+h2{
+    position: relative;
+    align-items: center;
+    top: 600px;
+}

@@ -1,0 +1,50 @@
+html{
+    height: 100vh;
+    
+}
+*{
+    margin: 0;
+}
+body{
+    background: linear-gradient(hotpink, green);
+}
+.container{
+    background: yellow;
+    height: 380px;
+    width: 100%;
+    margin-left: 0;
+}
+.container2{
+    background: red;
+    height: 295px
+}
+.container3{
+    background: white;
+    width: 250px;
+    height: 160px;
+    position: absolute;
+    top: 220px;
+    left: 200px;
+    border-radius: 10px;
+}
+.container3 h3{
+    text-align: center;
+}
+.container3::after,
+.container3::before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 85px;
+    background: white;
+    bottom: -5em;
+    z-index: 100;
+}
+.container3::before{
+    right: 50%;
+    transform: skewX(30deg)
+}
+.container3::after{
+    left: 50%;
+    transform: skewX(-30deg)
+}
